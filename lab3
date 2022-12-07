@@ -1,0 +1,19 @@
+//Q.1: A phone number with three parts 
+#include <iostream>
+using namespace std;
+struct phone
+{
+	int area_code,exchange,number;
+};
+int main()
+{
+	phone p1,p2;
+	cout<<"Enter your area code";
+	cin>> p1.area_code;
+	cout<<"Enter the exchange";
+	cin>> p1.exchange;
+	cout<<"Enter the number";
+	cin>> p1.number;
+	cout<<"Your phone number is :"<<p1.area_code <<p1.exchange<<p1.number;
+}
+
